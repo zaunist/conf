@@ -13,10 +13,15 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 #下载.zshrc
-curl
+curl -Lo ~/.vimrc https://raw.githubusercontent.com/zaunist/AutomaticConfiguration/master/.vimrc
 
 #下载 .vimrc
-curl
+curl -Lo ~/.zshrc https://raw.githubusercontent.com/zaunist/AutomaticConfiguration/master/.zshrc
 
 # 安装vim插件
 vim -c "PlugInstall" -c "q" -c "q"
+
+# 安装g,golang版本管理软件
+curl -sSL https://raw.githubusercontent.com/voidint/g/master/install.sh | bash
+
+
