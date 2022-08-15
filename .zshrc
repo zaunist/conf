@@ -10,7 +10,7 @@ export GOPROXY=https://goproxy.cn
 export GOROOT="${HOME}/.g/go"
 export PATH="${HOME}/bin:${HOME}/.g/go/bin:$PATH:${HOME}/go/bin"
 export G_MIRROR=https://golang.google.cn/dl/
-export http_proxy=http://127.0.0.1:10809;export https_proxy=http://127.0.0.1:10809;
+#export http_proxy=http://127.0.0.1:10809;export https_proxy=http://127.0.0.1:10809;
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
