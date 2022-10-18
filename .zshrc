@@ -3,14 +3,18 @@
 
 # Path to your oh-my-zsh installation.
 
-export ZSH="/Users/kusaka/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 export HOMEBREW_NO_AUTO_UPDATE=true
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn
 export GOROOT="${HOME}/.g/go"
-export PATH="${HOME}/bin:${HOME}/.g/go/bin:$PATH:${HOME}/go/bin"
+export PATH="$PATH:${HOME}/bin:${HOME}/.g/go/bin:${HOME}/go/bin:${HOME}/flutter/bin"
 export G_MIRROR=https://golang.google.cn/dl/
-#export http_proxy=http://127.0.0.1:10809;export https_proxy=http://127.0.0.1:10809;
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -109,5 +113,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias py3=/usr/local/bin/python3
 unalias g

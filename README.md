@@ -1,3 +1,5 @@
-# 自用系统配置
+# 初始化配置
 
-## 主要是配置zsh和vim
+```shell
+ git clone --depth 1 https://github.com/zaunist/conf.git ~/conf
+ ```

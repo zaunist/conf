@@ -54,7 +54,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-easy-align'
 
 " 用来提供一个导航目录的侧边栏
-"Plug 'scrooloose/nerdtree'
+" Plug 'scrooloose/nerdtree'
 
 " 可以使 nerdtree Tab 标签的名称更友好些
 Plug 'jistr/vim-nerdtree-tabs'
