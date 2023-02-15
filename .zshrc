@@ -8,7 +8,7 @@ export HOMEBREW_NO_AUTO_UPDATE=true
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn
 export GOROOT="${HOME}/.g/go"
-export PATH="$PATH:${HOME}/bin:${HOME}/.g/go/bin:${HOME}/go/bin:${HOME}/flutter/bin"
+export PATH="$PATH:${HOME}/bin:${HOME}/.g/go/bin:${HOME}/go/bin"
 export G_MIRROR=https://golang.google.cn/dl/
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
