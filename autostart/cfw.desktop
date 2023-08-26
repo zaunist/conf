@@ -1,0 +1,8 @@
+[Desktop Entry]
+    Type=Application
+    Version=0.20.30
+    Name=Clash for Windows
+    Comment=Clash for Windows startup script
+    Exec="/opt/clash-for-windows-chinese/cfw"
+    StartupNotify=false
+    Terminal=false
